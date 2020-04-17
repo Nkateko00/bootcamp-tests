@@ -7,5 +7,13 @@ describe("yearsAgo",function(){
     var year = 20;
    assert.equal(year,yearsAgo("2000"));
 });
+it("yearsAgo 1950",function(){
+   var year = 70;
+  assert.equal(year,yearsAgo("1950"));
+});
+it("yearsAgo 2019",function(){
+   var year = 1;
+  assert.equal(year,yearsAgo("2019"));
+});
 
 });
